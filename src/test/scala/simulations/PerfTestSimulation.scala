@@ -1,4 +1,4 @@
-package com.mycompany
+package simulations
 
 import config.BaseHelpers._
 import io.gatling.core.Predef._

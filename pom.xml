@@ -42,9 +42,7 @@
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
         <configuration>
-          <includes>
-            <param>${default.simulation.class}</param>
-          </includes>
+          <simulationClass>simulations.PerfTestSimulation</simulationClass>
         </configuration>
       </plugin>
     </plugins>
